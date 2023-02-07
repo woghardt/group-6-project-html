@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dashboard - Group 6 project</title>
+    <meta property="og:title" content="Dashboard - Group 6 project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./dashboard.css" rel="stylesheet" />
+
+      <div class="dashboard-container">
+        <div class="navbar-container navbar-root-class-name1">
+          <div class="navbar-container1">
+            <a href="index.html" class="navbar-navlink">
+              <svg viewBox="0 0 1024 1024" class="navbar-icon">
+                <path
+                  d="M640 384v-86h-170q-36 0-61 25t-25 61v256q0 36 25 61t61 25h84q36 0 61-25t25-61v-86q0-36-25-60t-61-24h-84v-86h170zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-34 0-60-26t-26-60v-596q0-34 26-60t60-26h596zM470 640v-86h84v86h-84z"
+                ></path>
+              </svg>
+            </a>
+            <a href="index.html" class="navbar-navlink1"><span>About</span></a>
+            <a href="portfolios-raees.html" class="navbar-navlink2">
+              <span>Portfolios</span>
+            </a>
+            <a href="dashboard.html" class="navbar-navlink3">
+              <span>Dashboard</span>
+              <br />
+            </a>
+            <a href="time-management-tool.html" class="navbar-navlink4">
+              <span>Time Management</span>
+              <br />
+            </a>
+          </div>
+        </div>
+        <div id="task" class="dashboard-cover">
+          <div class="dashboard-container01">
+            <h1 class="dashboard-text">
+              <span>Group</span>
+              <span class="dashboard-text02">6</span>
+            </h1>
+            <div class="dashboard-container02">
+              <div class="dashboard-container03">
+                <a href="#task" class="dashboard-link">
+                  <svg viewBox="0 0 1024 1024" class="dashboard-icon">
+                    <path
+                      d="M534 298v224l192 114-32 54-224-136v-256h64zM512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"
+                    ></path>
+                  </svg>
+                </a>
+                <a href="#dashboard" class="dashboard-link1">
+                  <svg viewBox="0 0 1024 1024" class="dashboard-icon2">
+                    <path
+                      d="M448 128v-16c0-26.4-21.6-48-48-48h-160c-26.4 0-48 21.6-48 48v16h-192v128h192v16c0 26.4 21.6 48 48 48h160c26.4 0 48-21.6 48-48v-16h576v-128h-576zM256 256v-128h128v128h-128zM832 432c0-26.4-21.6-48-48-48h-160c-26.4 0-48 21.6-48 48v16h-576v128h576v16c0 26.4 21.6 48 48 48h160c26.4 0 48-21.6 48-48v-16h192v-128h-192v-16zM640 576v-128h128v128h-128zM448 752c0-26.4-21.6-48-48-48h-160c-26.4 0-48 21.6-48 48v16h-192v128h192v16c0 26.4 21.6 48 48 48h160c26.4 0 48-21.6 48-48v-16h576v-128h-576v-16zM256 896v-128h128v128h-128z"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="dashboard-container04">
+              <h1>
+                <span>Times Used For Different Tasks</span>
+                <br />
+              </h1>
+            </div>
+          </div>
+          <div class="dashboard-container05">
+            <form class="dashboard-form">
+              <div class="dashboard-container06">
+                <span class="dashboard-text06">
+                  <span>Task 1</span>
+                  <br />
+                </span>
+                <input
+                  type="text"
+                  required=""
+                  placeholder="Task"
+                  class="dashboard-textinput input"
+                />
+              </div>
+              <button type="submit" class="dashboard-button button">
+                Button
+              </button>
+            </form>
+            <form class="dashboard-form01">
+              <div class="dashboard-container07">
+                <span class="dashboard-text09">Task 2</span>
+                <input
+                  type="text"
+                  required=""
+                  placeholder="Task"
+                  class="dashboard-textinput01 input"
+                />
+              </div>
+              <button type="submit" class="dashboard-button01 button">
+                Button
+              </button>
+            </form>
+            <form class="dashboard-form02">
+              <div class="dashboard-container08">
+                <span class="dashboard-text10">Task 3</span>
+                <input
+                  type="text"
+                  required=""
+                  placeholder="Task"
+                  class="dashboard-textinput02 input"
+                />
+              </div>
+              <button type="submit" class="dashboard-button02 button">
+                Button
+              </button>
+            </form>
+          </div>
+          <div class="dashboard-container09">
+            <form class="dashboard-form03">
+              <div class="dashboard-container10">
+                <span class="dashboard-text11">Time Taken</span>
+                <input
+                  type="text"
+                  required=""
+                  placeholder="Task"
+                  class="dashboard-textinput03 input"
+                />
+              </div>
+              <button type="submit" class="dashboard-button03 button">
+                Button
+              </button>
+            </form>
+            <form class="dashboard-form04">
+              <div class="dashboard-container11">
+                <span class="dashboard-text12">Time Taken</span>
+                <input
+                  type="text"
+                  required=""
+                  placeholder="Task"
+                  class="dashboard-textinput04 input"
+                />
+              </div>
+              <button type="submit" class="dashboard-button04 button">
+                Button
+              </button>
+            </form>
+            <form class="dashboard-form05">
+              <div class="dashboard-container12">
+                <span class="dashboard-text13">Time Taken</span>
+                <input
+                  type="text"
+                  required=""
+                  placeholder="Task"
+                  class="dashboard-textinput05 input"
+                />
+              </div>
+              <button type="submit" class="dashboard-button05 button">
+                Button
+              </button>
+            </form>
+          </div>
+          <div class="dashboard-container13">
+            <form class="dashboard-form06">
+              <div class="dashboard-container14">
+                <span class="dashboard-text14">
+                  <span>Task 4</span>
+                  <br />
+                </span>
+                <input
+                  type="text"
+                  required=""
+                  placeholder="Task"
+                  class="dashboard-textinput06 input"
+                />
+              </div>
+              <button type="submit" class="dashboard-button06 button">
+                Button
+              </button>
+            </form>
+            <form class="dashboard-form07">
+              <div class="dashboard-container15">
+                <span class="dashboard-text17">Task 5</span>
+                <input
+                  type="text"
+                  required=""
+                  placeholder="Task"
+                  class="dashboard-textinput07 input"
+                />
+              </div>
+              <button type="submit" class="dashboard-button07 button">
+                Button
+              </button>
+            </form>
+            <form class="dashboard-form08">
+              <div class="dashboard-container16">
+                <span class="dashboard-text18">Task 6</span>
+                <input
+                  type="text"
+                  required=""
+                  placeholder="Task"
+                  class="dashboard-textinput08 input"
+                />
+              </div>
+              <button type="submit" class="dashboard-button08 button">
+                Button
+              </button>
+            </form>
+          </div>
+          <div class="dashboard-container17">
+            <form class="dashboard-form09">
+              <div class="dashboard-container18">
+                <span class="dashboard-text19">Time Taken</span>
+                <input
+                  type="text"
+                  required=""
+                  placeholder="Task"
+                  class="dashboard-textinput09 input"
+                />
+              </div>
+              <button type="submit" class="dashboard-button09 button">
+                Button
+              </button>
+            </form>
+            <form class="dashboard-form10">
+              <div class="dashboard-container19">
+                <span class="dashboard-text20">Time Taken</span>
+                <input
+                  type="text"
+                  required=""
+                  placeholder="Task"
+                  class="dashboard-textinput10 input"
+                />
+              </div>
+              <button type="submit" class="dashboard-button10 button">
+                Button
+              </button>
+            </form>
+            <form class="dashboard-form11">
+              <div class="dashboard-container20">
+                <span class="dashboard-text21">Time Taken</span>
+                <input
+                  type="text"
+                  required=""
+                  placeholder="Task"
+                  class="dashboard-textinput11 input"
+                />
+              </div>
+              <button type="submit" class="dashboard-button11 button">
+                Button
+              </button>
+            </form>
+          </div>
+        </div>
+        <div id="dashboard" class="dashboard-cover1">
+          <div class="dashboard-container21">
+            <h1 class="dashboard-text22">
+              <span>Group</span>
+              <span class="dashboard-text24">6</span>
+            </h1>
+            <h1 class="dashboard-text25">Dashboard</h1>
+            <div class="dashboard-container22">
+              <div class="dashboard-container23">
+                <a href="#task" class="dashboard-link2">
+                  <svg viewBox="0 0 1024 1024" class="dashboard-icon4">
+                    <path
+                      d="M534 298v224l192 114-32 54-224-136v-256h64zM512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"
+                    ></path>
+                  </svg>
+                </a>
+                <a href="#dashboard" class="dashboard-link3">
+                  <svg viewBox="0 0 1024 1024" class="dashboard-icon6">
+                    <path
+                      d="M448 128v-16c0-26.4-21.6-48-48-48h-160c-26.4 0-48 21.6-48 48v16h-192v128h192v16c0 26.4 21.6 48 48 48h160c26.4 0 48-21.6 48-48v-16h576v-128h-576zM256 256v-128h128v128h-128zM832 432c0-26.4-21.6-48-48-48h-160c-26.4 0-48 21.6-48 48v16h-576v128h576v16c0 26.4 21.6 48 48 48h160c26.4 0 48-21.6 48-48v-16h192v-128h-192v-16zM640 576v-128h128v128h-128zM448 752c0-26.4-21.6-48-48-48h-160c-26.4 0-48 21.6-48 48v16h-192v128h192v16c0 26.4 21.6 48 48 48h160c26.4 0 48-21.6 48-48v-16h576v-128h-576v-16zM256 896v-128h128v128h-128z"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="dashboard-container24">
+              <h1>
+                <span>Dashboard</span>
+                <br />
+              </h1>
+            </div>
+          </div>
+          <div class="dashboard-container25">
+            <div class="dashboard-container26">
+              <div class="dashboard-container27 card">
+                <div class="dashboard-container28">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/pie%20chart-700w.png"
+                    class="dashboard-image"
+                  />
+                </div>
+              </div>
+              <div class="dashboard-container29 card">
+                <div class="dashboard-container30">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/3-700w.png"
+                    class="dashboard-image1"
+                  />
+                </div>
+              </div>
+              <div class="dashboard-container31 card">
+                <div class="dashboard-container32">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/2-700w.png"
+                    class="dashboard-image2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-container footer-root-class-name5">
+          <div class="footer-container1">
+            <span class="footer-text"><span>Contact</span></span>
+            <div class="footer-container2">
+              <span class="footer-text1">
+                <span>Raees: Raees.Khan@city.ac.uk</span>
+              </span>
+              <span class="footer-text2">
+                <span>Mohammed: Mohammed.Rahman.40@city.ac.uk</span>
+              </span>
+              <span class="footer-text3">
+                <span>Habib: Habib.Ali@city.ac.uk</span>
+              </span>
+              <span class="footer-text4">
+                <span>Ikhlaas: Mohammad.Lal-Mahomed@city.ac.uk</span>
+              </span>
+              <span class="footer-text5">
+                <span>Hasan: Hasan.Mahmud@city.ac.uk</span>
+              </span>
+              <a
+                href="https://www.city.ac.uk"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="footer-link"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/cityuni-200h.png"
+                  class="footer-image"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

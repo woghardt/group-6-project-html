@@ -1,0 +1,88 @@
+.navbar-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--dl-color-cs6colors-charcoal);
+}
+.navbar-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.navbar-navlink {
+  display: contents;
+}
+.navbar-icon {
+  fill: var(--dl-color-primary-300);
+  width: var(--dl-size-size-small);
+  align-self: center;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navbar-icon:hover {
+  fill: var(--dl-color-primary-100);
+}
+.navbar-navlink1 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  align-self: center;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navbar-navlink1:hover {
+  color: var(--dl-color-primary-300);
+}
+.navbar-navlink2 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  align-self: center;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navbar-navlink2:focus {
+  color: var(--dl-color-primary-300);
+}
+.navbar-navlink2:hover {
+  color: var(--dl-color-primary-300);
+}
+.navbar-navlink3 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  align-self: center;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navbar-navlink3:hover {
+  color: var(--dl-color-primary-300);
+}
+.navbar-navlink3:active {
+  color: var(--dl-color-primary-300);
+}
+.navbar-navlink4 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  align-self: center;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navbar-navlink4:hover {
+  color: var(--dl-color-primary-300);
+}
+
+
+
+
+
+
+
